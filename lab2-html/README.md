@@ -1,0 +1,1 @@
+This lab focuses on creating a structured HTML5 webpage using semantic elements and implementing a contact form with built-in validation. I and my fellow students will validate our HTML code using the W3C Validator and publish the project on GitHub. The lab emphasizes proper HTML5 syntax, semantic markup, and version control practices.
