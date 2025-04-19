@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PixelCraft - Web Design Agency</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="PixelCraft Logo">
+                <button id="themeToggle" class="theme-btn">
+                    <span class="light-icon">☀️</span>
+                    <span class="dark-icon">🌙</span>
+                </button>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Creative Web Solutions</h1>
+            <p>We craft beautiful, responsive websites that drive results</p>
+            <a href="contact.html" class="btn pulse">Get Started</a>
+        </div>
+    </section>
+
+    <main class="container">
+        <section class="intro">
+            <h2>Welcome to PixelCraft</h2>
+            <p>We're a team of passionate designers and developers dedicated to creating exceptional digital experiences. Our approach combines cutting-edge technology with thoughtful design to deliver websites that look great and perform even better.</p>
+            <p>Whether you need a simple brochure site or a complex web application, we have the skills and expertise to bring your vision to life.</p>
+        </section>
+
+        <aside class="sidebar">
+            <div class="feature-card">
+                <h3>Responsive Design</h3>
+                <p>All our websites look perfect on any device, from desktop to mobile.</p>
+            </div>
+            <div class="feature-card">
+                <h3>SEO Optimized</h3>
+                <p>We build with search engines in mind to help you get found online.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Fast Loading</h3>
+                <p>Performance is prioritized to ensure your visitors stay engaged.</p>
+            </div>
+        </aside>
+    </main>
+<section class="team-section">
+    <div class="container">
+        <h2>The World Development Team</h2>
+        <p>Meet the talented developers behind PixelCraft</p>
+        <button id="loadUsersBtn" class="btn">Load Team Members</button>
+        <div id="userList" class="team-grid"></div>
+    </div>
+</section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 PixelCraft. All rights reserved.</p>
+        </div>
+    </footer>
+    <button id="backToTop" class="back-to-top" title="Go to top">↑</button>
+    <script src="script.js"></script>
+</body>
+</html>
